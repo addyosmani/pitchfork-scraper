@@ -34,9 +34,10 @@ const Cell = ({ item, style }) => {
         </div>
         {item.score && <span className={styles.scoreClass}>{item.score.toFixed(1)}</span>}
         <figcaption className={styles.textClass}>
-          <a href={item.url} className={styles.linkClass}>
-            {item.artists.map(a => a.name).join(', ')} - <em>{item.name}</em>
+          <a href={item.url} className={styles.songClass}>
+            {item.artists.map(a => a.name).join(', ')}
           </a>
+          <span className={styles.artistClass}>{item.name}</span>
         </figcaption>
       </figure>
     </article>

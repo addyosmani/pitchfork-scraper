@@ -4,12 +4,14 @@ export const wrapClass = css`
   height: 200px;
   margin: 5px 5px 5px 0;
   position: relative;
+  background: #181818;
 `;
 
 export const imageWrapClass = css`
   background: #ddd;
   height: 160px;
-  margin: 0 0 12px;
+  margin: 10px;
+  padding: 10px;
   width: 160px;
 `;
 
@@ -25,16 +27,28 @@ export const loadedClass = css`
 
 export const textClass = css`
   display: block;
-  font-size: 12px;
-  height: 32px;
+  font-size: 20px;
+  height: 62px;
   line-height: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-left: 200px;
+  margin-top: -130px;
+  color: white;
 `;
 
-export const linkClass = css`
-  color: #333;
+export const songClass = css`
+  color: #fff;
   text-decoration: none;
+  display: block;
+`;
+
+export const artistClass = css`
+  color: gray;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+  margin-top: 4px;
 `;
 
 export const placeholderClass = css`

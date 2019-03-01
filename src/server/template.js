@@ -11,8 +11,9 @@ const scripts = ['runtime', 'vendor', 'main']
 
 export default ({ ids, css, html, initialState: state }) => `
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<title>Pitchfork reviews</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>

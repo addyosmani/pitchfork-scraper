@@ -10,9 +10,12 @@ export const wrapClass = css`
 export const imageWrapClass = css`
   background: #ddd;
   height: 160px;
-  margin: 10px;
-  padding: 10px;
+  // margin: 10px;
+  // padding: 10px;
   width: 160px;
+  margin-left: 8px;
+  margin-top: 8px;
+  display: inline-block;
 `;
 
 export const imageClass = css`

@@ -131,8 +131,8 @@ class Grid extends Component {
   };
 
   recalcSize = () => {
-    const width = (((document.documentElement.clientWidth || document.body.clientWidth) - 40));
-    const height = window.innerHeight - 160;
+    const width = (((document.documentElement.clientWidth || document.body.clientWidth) - 10));
+    const height = window.innerHeight - 100;
     const columns = Math.floor((width - 40));
 
     this.setState({
